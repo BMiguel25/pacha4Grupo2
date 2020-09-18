@@ -23,6 +23,9 @@ router = routers.DefaultRouter()
 router.register(r'cupones', views.CuponViewSet)
 router.register(r'estado_pedido', views.Estado_PedidoViewSet)
 router.register(r'categorias', views.CategoriaViewSet)
+router.register(r'pedido', views.PedidoViewSet)
+router.register(r'detalle_pedido', views.Detalle_pedidoViewSet)
+
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
